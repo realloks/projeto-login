@@ -19,7 +19,7 @@ body {
 #login {
     position: absolute;
     background-color: white;
-    width: 325px;
+    width: 250px;
     height: 500px;
 
     top: 50%;
@@ -54,12 +54,12 @@ div#formulario {
     padding-bottom: 25px;
 }
 
-div > h1 {
-    font-size: 2em;
+div#formulario > h1 {
     text-align: center;
     padding: 5px 0px 20px 0px;
 }
 
-div > p {
+div#formulario > p {
+    font-size: 0.8em;
     margin-bottom: 5px;
 }
