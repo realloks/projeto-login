@@ -20,15 +20,14 @@ body {
     position: absolute;
     background-color: white;
     width: 250px;
-    height: 515px;
-
+    height: 500px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.500);
     border-radius: 20px;
+
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -56,7 +55,7 @@ div#formulario {
 
 div#formulario > h1 {
     text-align: center;
-    padding: 5px 0px 20px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 div#formulario > p {
@@ -68,7 +67,33 @@ div.campo {
     background-color: var(--cor02);
     height: 40px;
     margin: 5px 0px;
-    border-radius: 5px;
+    border: 2px solid var(--cor02);
+    border-radius: 8px;
+}
+
+div.campo > input {
+    background-color: #94cfcd;
+    width: calc(100% - 45px);
+    height: 100%;
+    font-size: 0.9em;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    
+    transform: translateY(-14px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+div.campo > span {
+    font-size: 2em;
+    color: white;
+    width: 40px;
+    padding: 5px;
+
+    transform: translateY(-3px);
 }
 
 div > label {
@@ -82,6 +107,7 @@ form > input[type=submit] {
     height: 40px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 form > a.botao {

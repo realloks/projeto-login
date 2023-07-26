@@ -17,6 +17,7 @@ Grandes Telas: acima de 1200px
 
     #login {
         width: 80vw;
+        height: 300px;
     }
 
     div#imagem {
@@ -39,6 +40,11 @@ Grandes Telas: acima de 1200px
 
     #login {
         width: 950px;
+        height: 350px;
+    }
+
+    div#formulario > p {
+        padding: 10px 0px;
     }
 
     div#imagem {
